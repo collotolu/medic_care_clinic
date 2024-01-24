@@ -1,0 +1,42 @@
+.hero{
+    float:right;
+    
+}
+
+.list li{
+    display:inline-block;
+    padding:0  20px;
+
+}
+.clearfix{
+    clear:both;
+}
+.care{
+    height:50vh;
+    background:url("../images/ezgif-2-b583d0ce77.png") no-repeat center center/cover;
+    position:relative;
+}
+.content{
+    position:absolute;
+    top:30%;
+    left:55%;
+    transform:translate(0%,-40%)
+}
+.color{
+    color:blueviolet;
+}
+.class{
+    cursor:pointer;
+}
+.head{
+    color:rgb(51, 102, 179)
+}
+.col{
+padding:8px;
+background-color:rgb(66, 81, 218);
+
+}
+.pet{
+    padding:8px;
+    background-color:aquamarine;
+}
