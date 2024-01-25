@@ -63,3 +63,31 @@ margin:0 5px;;
     padding:8px;
     background-color: #496BF2;
  }
+ h3{
+    color: #496BF2;
+    margin:0 100px;
+ }
+
+ .testimonial-circle{
+    width:20px;
+    height: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    display: inline-block;
+    margin:6px;
+ }
+ .circle{
+    margin:10px 150px;
+ }
+ .ponts{
+    color:#496BF2;
+
+ }
+ .money{
+    margin:50px 500px
+ }
+ .partone{
+     padding:
+    
+ }
+
