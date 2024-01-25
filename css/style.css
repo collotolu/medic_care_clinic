@@ -33,10 +33,33 @@
 }
 .col{
 padding:8px;
-background-color:rgb(66, 81, 218);
+background-color:#496BF2;
 
 }
 .pet{
     padding:8px;
-    background-color:aquamarine;
+    background-color:#2DD661;
 }
+ .txt{
+    float:left;
+box-shadow:0 0 5px;
+width:17%;
+padding:10px;
+margin:25px;
+ }
+ .clearfix{
+    clear:both;
+ }
+ .doctor{
+    float: left;
+ }
+ .clearfix{
+    clear:both;
+ }
+ .words{
+margin:0 5px;;
+ }
+ .bold{
+    padding:8px;
+    background-color: #496BF2;
+ }
