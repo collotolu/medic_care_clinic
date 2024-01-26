@@ -6,6 +6,8 @@
 .list li{
     display:inline-block;
     padding:0  20px;
+    font-size: large;
+    margin:0 20px;
 
 }
 .clearfix{
@@ -21,6 +23,7 @@
     top:30%;
     left:55%;
     transform:translate(0%,-40%)
+    
 }
 .color{
     color:blueviolet;
@@ -29,7 +32,9 @@
     cursor:pointer;
 }
 .head{
+   font-size: xx-large;
     color:rgb(51, 102, 179)
+    
 }
 .col{
 padding:8px;
@@ -43,8 +48,8 @@ background-color:#496BF2;
  .txt{
     float:left;
 box-shadow:0 0 5px;
-width:17%;
-padding:10px;
+width:350px;
+padding:28px;
 margin:25px;
  }
  .clearfix{
@@ -52,6 +57,7 @@ margin:25px;
  }
  .doctor{
     float: left;
+    margin: 40px;
  }
  .clearfix{
     clear:both;
@@ -60,8 +66,9 @@ margin:25px;
 margin:0 5px;;
  }
  .bold{
-    padding:8px;
+    padding:10px;
     background-color: #496BF2;
+    color: beige;
  }
  h3{
     color: #496BF2;
@@ -87,16 +94,17 @@ margin:0 5px;;
     margin:50px 500px
  }
  .figure{
-    height:55vh;
+    height:65vh;
     background:url("../images/ezgif-2-81a50240fb.png") no-repeat center center/cover;
-    width: 100%;
+    
  }
  .inputs{
     margin:20px;
     padding:30px;
  }
  .life{
-    padding: 20px;
+    padding-right: 670px;
+    padding-bottom: 50px;
     margin:10px
 
  }
@@ -107,7 +115,8 @@ margin:0 5px;;
     color:#496BF2;
  }
 .gloria{
-    margin:0 25%;
+    margin:0 38%;
+    font-size:x-large;
 }
 .sly{
     color:#2DD661;
@@ -128,7 +137,8 @@ margin:0 5px;;
    color: #496BF2;
 }
 .speeches{
-   padding:0 410px;
+   padding:0 590px;
+   margin: inline end 20px;
 }
 .quot{
    
@@ -138,6 +148,54 @@ margin:0 5px;;
 .clearfix{
    clear: both;
 }
+.services{
+   color: #496BF2;
+}
+.fonts{
+   font-size: large;
+}
+.examples{
+   font-size: x-large;
+   
+}
+.meds{
+   margin:40px 100px;
+
+}
+.loads{
+   padding:20px
+}
+.process{
+   font-size: x-large;
+}
+.LUCY{
+   margin: 0 100px;
+   text-align: center;
+}
+.root{
+   display: inline;
+}
+.plant{
+   display: inline;
+}
+.peace{
+   display: inline;
+}
+.icons{
+   display: flex;
+}
+.diff{
+   width: 25%;
+}
+.period{
+   padding: 12px;
+}
+.prices{
+   padding:12px;
+}
+
+
+
 
 
 
