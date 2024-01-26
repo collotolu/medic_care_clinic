@@ -86,13 +86,10 @@ margin:0 5px;;
  .money{
     margin:50px 500px
  }
- .partone{
-     
-    
- }
  .figure{
-    height:90vh;
+    height:55vh;
     background:url("../images/ezgif-2-81a50240fb.png") no-repeat center center/cover;
+    width: 100%;
  }
  .inputs{
     margin:20px;
@@ -119,8 +116,27 @@ margin:0 5px;;
     color:#496BF2;
 }
 .lock{
-    margin:0 10px;
-    padding:0 10px
+    margin:0px 12px;
+    padding:5px 20px;
+    background-color: #496BF2;
+    color:beige;
+}
+.exerlence{
+   color: #2DD661;
+}
+.participation{
+   color: #496BF2;
+}
+.speeches{
+   padding:0 410px;
+}
+.quot{
+   
+   margin:20px;
+   
+}
+.clearfix{
+   clear: both;
 }
 
 
