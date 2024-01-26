@@ -71,7 +71,7 @@ margin:0 5px;;
  .testimonial-circle{
     width:20px;
     height: 20px;
-    border: 2px solid red;
+    border: 2px solid rgb(37, 120, 187);
     border-radius: 50%;
     display: inline-block;
     margin:6px;
@@ -87,11 +87,20 @@ margin:0 5px;;
     margin:50px 500px
  }
  .partone{
-     padding:
+     
     
  }
  .figure{
     height:90vh;
-    background-image:url(../images/ezgif-2-81a50240fb.png)
+    background:url("../images/ezgif-2-81a50240fb.png") no-repeat center center/cover;
+ }
+ .inputs{
+    margin:20px;
+    padding:30px;
+ }
+ .life{
+    padding: 20px;
+    margin:10px
+
  }
 
