@@ -14,7 +14,7 @@
     clear:both;
 }
 .care{
-    height:50vh;
+    height:80vh;
     background:url("../images/ezgif-2-b583d0ce77.png") no-repeat center center/cover;
     position:relative;
 }
@@ -78,13 +78,14 @@ margin:0 5px;;
  .testimonial-circle{
     width:20px;
     height: 20px;
-    border: 2px solid rgb(37, 120, 187);
-    border-radius: 50%;
-    display: inline-block;
+    border: 2px solid rgb(244, 235, 235);
+   border-radius:50%;
+ display:inline-block;
     margin:6px;
  }
  .circle{
     margin:10px 150px;
+    
  }
  .ponts{
     color:#496BF2;
@@ -170,7 +171,7 @@ margin:0 5px;;
 }
 .LUCY{
    margin: 0 100px;
-   text-align: center;
+   
 }
 .root{
    display: inline;
@@ -192,6 +193,18 @@ margin:0 5px;;
 }
 .prices{
    padding:12px;
+}
+li{
+   list-style-type: none;
+}
+.x-tics{
+   background-color: #496BF2;
+}
+.points{
+   background-color: #496BF2;
+}
+.person{
+   background-color: #2DD661;
 }
 
 
