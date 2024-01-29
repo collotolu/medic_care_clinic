@@ -126,8 +126,8 @@ margin:0 5px;;
     color:#496BF2;
 }
 .lock{
-    margin:0px 12px;
-    padding:5px 20px;
+    margin:9px 12px;
+    padding:20px 30px;
     background-color: #496BF2;
     color:beige;
 }
@@ -205,6 +205,9 @@ li{
 }
 .person{
    background-color: #2DD661;
+}
+.home{
+   color: #496BF2;
 }
 
 
