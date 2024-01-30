@@ -144,10 +144,7 @@ h2{
 .circle{
   margin: 10px 0;
 }
-.right{
-  text-align: right;
-  margin-left: 0 1000px;
-}
+
 .points {
   color: #496bf2;
 }
@@ -157,16 +154,11 @@ h2{
   background: url("../images/ezgif-2-81a50240fb.png") no-repeat center
     center/cover;
 }
-.inputs {
-  margin: 20px;
-  padding: 30px;
+.section{
+  text-align: center;
 }
-.life {
-  padding-right: 670px;
-  padding-bottom: 50px;
-  margin: 10px;
-}
-.space {
+
+ e {
   margin: 0 80px;
 }
 .simo {
@@ -198,17 +190,14 @@ h2{
 .services {
   margin: 70px 0;
 }
-.root {
-  display: inline;
-}
-.plant {
-  display: inline;
-}
-.peace {
-  display: inline;
-}
+
+
 .icons {
   display: flex;
+  margin: 50px 0;
+}
+.icons li{
+  line-height: 35px;
 }
 .diff {
   width: 25%;
@@ -216,8 +205,8 @@ h2{
 .period {
   padding: 12px;
 }
-.prices {
-  padding: 12px;
+.prices:nth-child(2) img{
+  margin: 0 30px;
 }
 li {
   list-style-type: none;
