@@ -131,12 +131,14 @@ h2{
 .testimonial-circle {
   width: 20px;
   height: 20px;
-  border: 2px solid gray;
+  border: 2px solid gainsboro;
   border-radius: 50%;
   display: inline-block;
   margin: 6px;
 }
-
+.marks{
+   float: left;
+}
 .points {
   color: #496bf2;
 }
@@ -180,15 +182,6 @@ h2{
 .participation {
   color: #496bf2;
 }
-.speeches {
-  padding: 0 590px;
-  margin: inline end 20px;
-}
-.quot {
-  margin: 30px 0px;
-}
-
-
 .fonts {
   font-size: large;
 }
