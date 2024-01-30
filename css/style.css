@@ -92,7 +92,8 @@ h2{
    margin: 0 5%;
 }
 .about-us{
-   margin: 90px 0;
+   
+   margin:100px 0;
 }
 .about-img{
    width: 50%;
@@ -109,15 +110,14 @@ h2{
 .concepts{
    text-align: center;
 }
-.concepts p{
-   margin: 40px 600px;
-}
-.concepts img{
+.about-content img{
    margin-top:30px ;
 }
-.words {
-  margin: 0 5px;
+.concepts p{
+   margin: 20px 600px;
 }
+
+
 .bold {
   padding: 10px;
   background-color: #496bf2;
@@ -135,9 +135,13 @@ h2{
   border-radius: 50%;
   display: inline-block;
   margin: 6px;
+}  
+
+.lucy{
+   color:#496bf2;
 }
-.marks{
-   float: left;
+.circle{
+  margin: 10px 0;
 }
 .points {
   color: #496bf2;
