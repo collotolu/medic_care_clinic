@@ -106,7 +106,9 @@ h2{
 .about-content p{
    margin: 20px 0;
 }
-
+.concepts{
+   text-align: center;
+}
 
 .words {
   margin: 0 5px;
@@ -135,9 +137,7 @@ h2{
 .ponts {
   color: #496bf2;
 }
-.money {
-  text-align: center;
-}
+
 .figure {
   height: 65vh;
   background: url("../images/ezgif-2-81a50240fb.png") no-repeat center
@@ -184,9 +184,7 @@ h2{
 .quot {
   margin: 30px 0px;
 }
-.clearfix {
-  clear: both;
-}
+
 
 .fonts {
   font-size: large;
@@ -195,11 +193,6 @@ h2{
 .services {
   margin: 70px 0;
 }
-
-.process {
-  font-size: x-large;
-}
-
 .root {
   display: inline;
 }
