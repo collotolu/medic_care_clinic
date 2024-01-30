@@ -110,7 +110,10 @@ h2{
    text-align: center;
 }
 .concepts p{
-   margin: 10px 500px;
+   margin: 40px 600px;
+}
+.concepts img{
+   margin-top:30px ;
 }
 .words {
   margin: 0 5px;
@@ -128,15 +131,13 @@ h2{
 .testimonial-circle {
   width: 20px;
   height: 20px;
-  border: 2px solid rgb(244, 235, 235);
+  border: 2px solid gray;
   border-radius: 50%;
   display: inline-block;
   margin: 6px;
 }
-.circle {
-  margin: 10px 150px;
-}
-.ponts {
+
+.points {
   color: #496bf2;
 }
 
