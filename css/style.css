@@ -190,8 +190,13 @@ h2{
 .services {
   margin: 70px 0;
 }
+.apps{
+  display: block;
+  
+}
+.apps li{
 
-
+}
 .icons {
   display: flex;
   margin: 50px 0;
