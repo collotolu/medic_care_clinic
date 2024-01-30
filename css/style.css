@@ -1,225 +1,241 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+p {
+  font-size: 25px;
+  line-height: 35px;
+}
+h2{
+   font-size: 50px;
+}
+.clearfix {
+   clear: both;
+ }
+.nav img {
+  float: left;
+}
+.list {
+  float: right;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Josefin+Sans&display=swap');
-
-*{
-   margin:0 auto;
-   padding:5px;
-   display:border-box;
-   font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Josefin Sans', sans-serif;
-}
-.hero{
-    float:right;
-    
-   
+.list li {
+  display: inline-block;
+  padding: 30px 20px;
 }
 
-.list li{
-    display:inline-block;
-    padding:0  20px;
-    font-size: large;
-    margin:0 20px;
+.hero {
+  height: 80vh;
+  background: url("../images/ezgif-2-b583d0ce77.png") no-repeat center
+    center/cover;
+  position: relative;
+}
+.hero-content {
+  padding-right: 200px;
+  position: absolute;
+  top: 40%;
+  left: 55%;
+  transform: translate(0%, -40%);
+}
+.hero-content h1 {
+  color: #496bf2;
+  font-size: 50px;
+}
+.hero-content p {
+  margin: 30px 0;
+}
+.buttons button:last-child {
+  margin-left: 20px;
+}
+.color {
+  color: #496bf2;
+}
+.class {
+  cursor: pointer;
+}
+.btn {
+  border: none;
+  color: white;
+  padding: 20px 40px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.btn-blue {
+  background-color: #496bf2;
+}
+.btn-green {
+  background-color: #2dd6c1;
+}
+
+.card {
+  float: left;
+  box-shadow: 0 0 5px gray;
+  width: 30%;
+  padding: 28px;
+  text-align: center;
+  
+}
+.card h3{
+   color:#496bf2;
+   font-size: 30px;
+   margin: 20px 0;
+}
+.card:nth-child(2){
+   margin: 0 5%;
+}
+.about-us{
+   margin: 90px 0;
+}
+.about-img{
+   width: 50%;
+   float: left;
+}
+.about-content{
+   width: 48%;
+   float: right;
 
 }
-.clearfix{
-    clear:both;
+.about-content p{
+   margin: 20px 0;
 }
-.care{
-    height:80vh;
-    background:url("../images/ezgif-2-b583d0ce77.png") no-repeat center center/cover;
-    position:relative;
-}
-.content{
-    position:absolute;
-    top:30%;
-    left:55%;
-    transform:translate(0%,-40%)
-    
-}
-.color{
-    color:blueviolet;
-}
-.class{
-    cursor:pointer;
-}
-.head{
-   font-size: xx-large;
-    color:rgb(51, 102, 179)
-    
-}
-.col{
-padding:8px;
-background-color:#496BF2;
 
+
+.words {
+  margin: 0 5px;
 }
-.pet{
-    padding:8px;
-    background-color:#2DD661;
+.bold {
+  padding: 10px;
+  background-color: #496bf2;
+  color: beige;
 }
- .txt{
-    float:left;
-box-shadow:0 0 5px;
-width:350px;
-padding:28px;
-margin:25px;
- }
- .clearfix{
-    clear:both;
- }
- .doctor{
-    float: left;
-    margin: 40px;
- }
- .clearfix{
-    clear:both;
- }
- .words{
-margin:0 5px;;
- }
- .bold{
-    padding:10px;
-    background-color: #496BF2;
-    color: beige;
- }
- h3{
+/* h3{
     color: #496BF2;
     margin:0 100px;
- }
+ } */
 
- .testimonial-circle{
-    width:20px;
-    height: 20px;
-    border: 2px solid rgb(244, 235, 235);
-   border-radius:50%;
- display:inline-block;
-    margin:6px;
- }
- .circle{
-    margin:10px 150px;
-    
- }
- .ponts{
-    color:#496BF2;
-
- }
- .money{
-   text-align: center;
- }
- .figure{
-    height:65vh;
-    background:url("../images/ezgif-2-81a50240fb.png") no-repeat center center/cover;
-    
- }
- .inputs{
-    margin:20px;
-    padding:30px;
- }
- .life{
-    padding-right: 670px;
-    padding-bottom: 50px;
-    margin:10px
-
- }
- .space{
-    margin:0 80px;
- }
- .simo{
-    color:#496BF2;
- }
-.gloria{
-    margin:0 38%;
-    font-size:x-large;
+.testimonial-circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid rgb(244, 235, 235);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6px;
 }
-.sly{
-    color:#2DD661;
+.circle {
+  margin: 10px 150px;
 }
-.mercy{
-    color:#496BF2;
+.ponts {
+  color: #496bf2;
 }
-.lock{
-    margin:9px 12px;
-    padding:20px 30px;
-    background-color: #496BF2;
-    color:beige;
+.money {
+  text-align: center;
 }
-.exerlence{
-   color: #2DD661;
+.figure {
+  height: 65vh;
+  background: url("../images/ezgif-2-81a50240fb.png") no-repeat center
+    center/cover;
 }
-.participation{
-   color: #496BF2;
+.inputs {
+  margin: 20px;
+  padding: 30px;
 }
-.speeches{
-   padding:0 590px;
-   margin: inline end 20px;
+.life {
+  padding-right: 670px;
+  padding-bottom: 50px;
+  margin: 10px;
 }
-.quot{
-   
-   margin:30px 0px;
-   
+.space {
+  margin: 0 80px;
 }
-.clearfix{
-   clear: both;
-}
-.services{
-   color: #496BF2;
-}
-.fonts{
-   font-size: large;
-}
-.examples{
-   font-size: x-large;
-   
-}
-.meds{
-   margin:40px 100px;
-
-}
-.loads{
-   padding:20px
-}
-.process{
-   font-size: x-large;
+.simo {
+  color: #496bf2;
 }
 
-.root{
-   display: inline;
+.sly {
+  color: #2dd661;
 }
-.plant{
-   display: inline;
+.mercy {
+  color: #496bf2;
 }
-.peace{
-   display: inline;
+.lock {
+  margin: 9px 12px;
+  padding: 20px 30px;
+  background-color: #496bf2;
+  color: beige;
 }
-.icons{
-   display: flex;
+.exerlence {
+  color: #2dd6c1;
 }
-.diff{
-   width: 25%;
+.participation {
+  color: #496bf2;
 }
-.period{
-   padding: 12px;
+.speeches {
+  padding: 0 590px;
+  margin: inline end 20px;
 }
-.prices{
-   padding:12px;
+.quot {
+  margin: 30px 0px;
 }
-li{
-   list-style-type: none;
-}
-.x-tics{
-   background-color: #496BF2;
-}
-.points{
-   background-color: #496BF2;
-}
-.person{
-   background-color: #2DD661;
-}
-.home{
-   color: #496BF2;
+.clearfix {
+  clear: both;
 }
 
+.fonts {
+  font-size: large;
+}
 
+.services {
+  margin: 70px 0;
+}
 
+.process {
+  font-size: x-large;
+}
 
-
-
+.root {
+  display: inline;
+}
+.plant {
+  display: inline;
+}
+.peace {
+  display: inline;
+}
+.icons {
+  display: flex;
+}
+.diff {
+  width: 25%;
+}
+.period {
+  padding: 12px;
+}
+.prices {
+  padding: 12px;
+}
+li {
+  list-style-type: none;
+}
+.x-tics {
+  background-color: #496bf2;
+}
+.points {
+  background-color: #496bf2;
+}
+.person {
+  background-color: #2dd661;
+}
+.home {
+  color: #496bf2;
+}
+.sila {
+  padding-left: 10px;
+}
