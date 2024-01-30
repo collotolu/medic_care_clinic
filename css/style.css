@@ -4,7 +4,7 @@
 *{
    margin:0 auto;
    padding:5px;
-   box-sizing:border-box;
+   display:border-box;
    font-family: 'IBM Plex Sans', sans-serif;
 font-family: 'Josefin Sans', sans-serif;
 }
@@ -103,7 +103,7 @@ margin:0 5px;;
 
  }
  .money{
-   
+   text-align: center;
  }
  .figure{
     height:65vh;
