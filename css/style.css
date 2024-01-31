@@ -157,7 +157,16 @@ h2{
 .section{
   text-align: center;
 }
-
+.inputs{
+  margin-top: 50px;
+}
+.forms{
+  border: none;
+  border-radius: 20px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  
+}
  e {
   margin: 0 80px;
 }
@@ -192,10 +201,9 @@ h2{
 }
 .apps{
   display: block;
-  
 }
-.apps li{
-
+.kibera{
+  display: inline;
 }
 .icons {
   display: flex;
